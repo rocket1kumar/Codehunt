@@ -171,6 +171,7 @@ public void TraverseList() {
 		// point temp to link of temp
 		temp=temp.link;
 	}
+	System.out.println();
 }
 
 /********************************************************************************/
@@ -184,7 +185,7 @@ public LinkedListNode reverse() {
 	LinkedListNode current=head;
 	LinkedListNode previous=null;
 	
-	// traverse lnked list until current is not null;
+	// traverse linked list until current is not null;
 	while(current!=null) {
 						
 		next=current.link;      // store link of current into next
